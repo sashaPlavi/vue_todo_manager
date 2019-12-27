@@ -2,7 +2,9 @@
   <div>
     <H1>todos</H1>
     <div class="todos">
-      <div v-for="todo in allTodos" :key="todo.id" class="todo">{{todo.title}}</div>
+      <div v-for="todo in allTodos" :key="todo.id" class="todo">
+        {{ todo.title }}
+      </div>
     </div>
   </div>
 </template>
